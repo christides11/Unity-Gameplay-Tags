@@ -1,0 +1,7 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/GameplayTags/Editor/Resources/GameplayTags/USS_TagListItem.uss?fileID=7433441132597879392&amp;guid=1678e71fcd011b44a9459b7c82d9acee&amp;type=3#USS_TagListItem"/>
+    <ui:VisualElement name="TagListItem" style="flex-grow: 1; flex-direction: row; padding-left: 2px; max-height: 22px; min-height: 22px;">
+        <ui:Toggle label="Tag Name" name="TagSelectToggle" class="custom-toggle" style="flex-direction: row-reverse; align-self: center;"/>
+        <uie:ToolbarMenu name="ContextMenu" style="border-left-width: 0; border-right-width: 0; background-color: rgba(0, 0, 0, 0); flex-shrink: 0; flex-direction: row; position: absolute; right: 0; align-self: center;"/>
+    </ui:VisualElement>
+</ui:UXML>

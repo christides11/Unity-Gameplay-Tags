@@ -1,0 +1,8 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:TextField label="Tags Location" placeholder-text="filler text" name="TagFolderLocation"/>
+    <ui:Foldout text="Add New Gameplay Tag" enabled="true" name="AddTagFoldout" value="true" focusable="true">
+        <ui:TextField label="Name" placeholder-text="X.Y.Z" readonly="false" name="TagName"/>
+        <ui:TextField label="Comment" placeholder-text="Comment" readonly="false" name="TagComment"/>
+        <ui:Button text="Add New Tag" name="AddNewTag" style="width: 100px; -unity-text-align: middle-center; align-self: flex-end; margin-right: 5px; margin-top: 4px; margin-bottom: 4px;"/>
+    </ui:Foldout>
+</ui:UXML>

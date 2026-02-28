@@ -1,0 +1,12 @@
+{
+	"name": "com.christides.gameplaytags",
+	"version": "1.0.0",
+	"displayName": "Gameplay Tags",
+	"description": "Gameplay Tags.",
+	"unity": "6000.3",
+	"author": {
+		"name": "ChrisTides",
+		"url": ""
+	},
+	"license": "MIT"
+}
